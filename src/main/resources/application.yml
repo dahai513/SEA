@@ -1,0 +1,14 @@
+
+spring:
+  mvc:
+    view:
+      perfix: /webapp/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/xudahai
+    username: root
+    password: xudahai513
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+

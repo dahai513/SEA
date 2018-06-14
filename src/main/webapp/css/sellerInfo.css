@@ -1,0 +1,58 @@
+body {  background-color: rgba(248,232,137,0.7); }
+
+.fl{ position: fixed; width: 47%; }
+.fr{ position: fixed; right:0px; width: 47%; }
+#pay_ ,#member_ { margin:20px; background:white; display:none;z-index:100}
+.txt, .m_txt { margin:20px;}
+#pay_ button,#member_ button { color:white;font-size:12px;padding:8px 22px; border: 1px solid rgb(197,229,145); border-radius:5px; background-color:rgb(120, 195, 0); margin:10px; z-index:111}
+
+#pay_ img{ position:relative; left:610px;top:-50px; width:20px;height:20px; cursor: pointer;}
+	/*进度条样式*/
+.shedule_ { position:relative; top:-6px; border-radius:2px;font-size: 10px;padding:10px;display:none}
+.shedule_ p{ position: absolute; }
+.shedule_ .bottom {width: 98px; height: 12px;border: 1px solid; }
+.shedule_ .shedule {height: 14px; background-color: #00bfff}
+.shedule_ .percent { position: relative; left: 35px; top: -2px; z-index: 1px }
+
+/*登入框*/
+#onload { position:fixed; right:30px;top:0px }
+#king { margin:10px; padding:2px 5px; color:white; background:#47a4e1; cursor:pointer; }
+#pass { display:none; border-radius:5px; }
+
+  		/*录入框样式*/
+#f{ padding: 10px; margin-top:70px;   }
+#f input{ margin:0 100px 20px 0;border-radius:5px}
+#f select:not(.payment) { margin:0 50px 20px 0;border-radius:5px}
+#f .payment { margin:0 0px 20px 0;border-radius:5px}
+button:hover{padding: 5px;background: #2F4F4F;}
+#x {position:relative;left:570px; font-size:25px; cursor:pointer}
+         /*页面选择*/
+ul { position: relative;left:450px; }
+ul li { float:left; margin: 10px; cursor: pointer;}
+
+/*操作隐藏*/
+.update_hide { display:none; }
+
+.tdColor {
+	height: 40px;
+	background-color: #FFE4C4;
+ }
+/*/ 商家门店和商品上传情况*/
+.seon {width:20%; cursor:pointer;}
+.seon .seller_online {  display:none; }
+.seon .total_store, .seon .open_store, .seon .item, .seon .sku { color:#00bfff }
+
+/* 新增*/
+.addA {
+	display: inline-block;
+	width: 160px;
+	height: 35px;
+	background-color: #47a4e1;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 40px;
+	font-size: 16px;
+	cursor:pointer;
+}
